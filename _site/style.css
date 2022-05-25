@@ -696,9 +696,9 @@ span.psw {
   }
 
   .bg-mock-up1 {
-      background-image: url('/images/mockup1.jpg');
+      background-image: url('/images/phuket.jpeg');
     background-size: cover;
-    background-position: center;
+    background-position: 50% 18%;
     min-height: 100%;
     background-repeat: no-repeat;
   }
@@ -712,7 +712,7 @@ span.psw {
   }
 
   .bg-mock-up3 {
-    background-image: url('/images/banner6.jpg');
+    background-image: url('/images/thailand-holiday.jpg');
     background-size: cover;
     background-position: center;
     min-height: 100%;
