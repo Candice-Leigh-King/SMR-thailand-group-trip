@@ -76,6 +76,8 @@
   .padded-top-left-right {padding: 5% 5% 0% 5%}
   .padded-t-0 {padding-top: 0;}
   .padded-50 {padding: 48%;}
+  .padded-top-l {padding-top: 7%;}
+  .padded-bottom-l {padding-bottom: 7%;}
 
 
   .capped-width { width: 80%; margin: auto;}
@@ -247,6 +249,15 @@
     color: #faf8f4;
     text-transform: uppercase;
       }
+
+.bold2
+  {
+  font-size: 3.2rem;
+  font-weight: 100;
+  color: #faf8f4;
+  text-transform: uppercase;
+  }
+
 
   .dream {
     font-size: 1.6rem;
@@ -704,7 +715,7 @@ span.psw {
   }
 
   .bg-mock-up2 {
-    background-image: url('/images/mockup2.jpg');
+    background-image: url('/images/thailand-roadtrip.jpg');
     background-size: cover;
     background-position: center;
     min-height: 100%;
