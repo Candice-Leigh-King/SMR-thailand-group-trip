@@ -1270,7 +1270,7 @@ a.bg-image-photography {
    border-left: 2px solid #c1b9ac;}
 
  .accordion:hover{
-   transform: scale(1.1);
+  
    cursor: pointer;
    transition: all 0.5s;}
 
