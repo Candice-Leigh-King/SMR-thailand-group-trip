@@ -647,10 +647,10 @@ span.psw {
     min-height: 80vh;
   }
   .banner3 {
-    background-image: url('/images/banner5.jpg');
+    background-image: url('/images/monkey-island.jpg');
     background-size: cover;
-    background-position: bottom;
-    min-height: 80vh;
+    background-position: top;
+    min-height: 100vh;
   }
 
 
@@ -691,7 +691,7 @@ span.psw {
 
 
   .bg-image-safari {
-    background-image: url('/images/safari.jpg');
+    background-image: url('/images/phangnabay.jpeg');
     background-size: cover;
     background-position: center;
     min-height: 100%;
@@ -699,7 +699,23 @@ span.psw {
   }
 
   .bg-image-beach {
-      background-image: url('/images/beach.png');
+    background-image: url('/images/phuket-old-town.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .bg-image-krabi {
+    background-image: url('/images/dragon.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .bg-image-phiphi {
+    background-image: url('/images/thailand-trip-phiphi.jpeg');
     background-size: cover;
     background-position: center;
     min-height: 100%;
@@ -707,7 +723,7 @@ span.psw {
   }
 
   .bg-mock-up1 {
-      background-image: url('/images/phuket.jpeg');
+    background-image: url('/images/phuket.jpeg');
     background-size: cover;
     background-position: 50% 18%;
     min-height: 100%;
@@ -1345,6 +1361,11 @@ a.bg-image-photography {
 
   .bold1 {
     font-size: 3rem;
+    font-weight: 200;
+    margin-bottom: 0.8rem;}
+
+  .bold2 {
+    font-size: 2.2rem;
     font-weight: 200;
     margin-bottom: 0.8rem;}
 
