@@ -78,6 +78,9 @@
   .padded-50 {padding: 48%;}
   .padded-top-l {padding-top: 7%;}
   .padded-bottom-l {padding-bottom: 7%;}
+  .padded-sides-adjusts-with-mob {padding: 0% 5% 0% 5% !important;}
+
+  .shadow {box-shadow:  1px 2px 6px 3px rgb(0 0 0 / 20%)}
 
 
   .capped-width { width: 80%; margin: auto;}
@@ -957,6 +960,7 @@ span.psw {
         margin: 0;
         width: 100%;
         border: none;
+        border-radius: 0px;
         border-bottom: 2px solid #5f5a5a70;
         transition: all .5s;
         padding: .7rem 0 .5rem;
