@@ -311,13 +311,13 @@
   .button-inverted {
     text-decoration: none;
     color:  white;
-    border: 1px solid #c1b9ac;
+    border: 1px solid #71b3cc;
     padding: 0.6rem 2rem;
     margin-top: 1rem;
     display: inline-block;
     text-transform: uppercase;
     font-size: 1rem;
-    background-color: #c1b9ac;
+    background-color: #71b3cc;
   }
 
   .button-photography {  text-decoration: none;
@@ -342,9 +342,9 @@
   }
 
   .button:hover {
-    background-color: transparent;
-    color: #848387;
-    border:#848387 solid 1px;
+    background-color: white;
+    color: #71b3cc;
+    border:#71b3cc solid 1px;
   }
   .button.inverted {   /* this is for a button on a dark background */
     border: 2px solid white;
@@ -1412,7 +1412,6 @@ a.bg-image-photography {
     margin-top: 1rem;
     display: inline-block;
     text-transform: uppercase;
-    font-size: 0.7rem;
     background-color: #c1b9ac;
       }
 
@@ -1510,13 +1509,12 @@ a.bg-image-photography {
   .button, .button-solid, .button-inverted {
     text-decoration: none;
     color: white;
-    border: 1px solid #c1b9ac;
+    border: 1px solid #71b3cc;
     padding: 0.5rem 1rem;
     margin-top: 1rem;
     display: inline-block;
     text-transform: uppercase;
-    font-size: 0.7rem;
-    background-color: #c1b9ac; }
+    background-color: #71b3cc; }
 
   .service-banner {  margin-bottom: 0.2rem;}
 
