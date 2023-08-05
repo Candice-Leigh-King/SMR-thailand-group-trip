@@ -1371,7 +1371,7 @@ a.bg-image-photography {
   }
 
   h1 {font-size: 2rem;}
-  h3 {font-size: 1.4rem;}
+  /* h3 {font-size: 1.4rem;} */
   h4 {font-size: 1.2rem;}
   h5 {font-size: 1.1rem;}
   .web-dev h1 {font-size: 1.8rem;}
@@ -1480,7 +1480,7 @@ a.bg-image-photography {
 /* This media query kicks into action at the gridlex xs breakpoint */
 @media(max-width:576px){
 
-  p {font-size: 0.9rem;}
+  /* p {font-size: 0.9rem;} */
 
   .mob-hide {
     display: none;
@@ -1488,7 +1488,7 @@ a.bg-image-photography {
 
   h1 {font-size: 1.5rem;}
   h2 {font-size: 1.2rem;}
-  h3 {font-size: 1.2rem;}
+  /* h3 {font-size: 1.2rem;} */
   h4 {font-size: 1.1rem;}
 
 
