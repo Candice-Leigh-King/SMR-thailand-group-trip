@@ -22,7 +22,7 @@
     font-family: 'Noto Sans HK', sans-serif;
     color: rgb(120,120,125);
     font-weight: bolder;
-    font-size: 0.8rem;}
+    font-size: 1rem;}
 
   .logo img {max-width: 35%;}
   .grow { transition: all .2s ease-in-out; }
@@ -59,7 +59,7 @@
   .left     {  text-align: left;     }
   .right    {  text-align: right;    }
   .centered {  text-align: center;   }
-  .padded   {  padding: 5%;    }
+  .padded   {  padding: 5% !important;    }
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
   .padded-4 {  padding:5rem;   }
@@ -339,6 +339,24 @@
     text-transform: uppercase;
     font-size: 0.8rem;
     background-color: #c1b9ac;
+  }
+
+  .bullet-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Add custom bullet using ::before pseudo-element */
+  .bullet-list li {
+    position: relative;
+    padding-left: 20px; /* Adjust this value to change the space between bullet and text */
+  }
+  
+  .bullet-list li::before {
+    content: "\2022"; /* Use a unicode bullet character or an image for custom bullet */
+    position: absolute;
+    left: 0;
   }
 
   .button:hover {
